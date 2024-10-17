@@ -71,6 +71,18 @@ These issues suggest potential data entry errors or the need for further data cl
 
 
 # Part B
+
+# Project Environment Setup
+
+This document outlines the steps to create and activate a virtual environment for the project, as well as how to install the required packages.
+
+## Create a Virtual Environment
+
+To create a virtual environment named `witsmyenv`, run the following command in your terminal:
+
+```bash
+python -m venv witsmyenv
+
 ## 1.
 ![Imgur](https://imgur.com/GC42SQF.png)
 # Importing Fertility Data into PostgreSQL
