@@ -194,7 +194,7 @@ The following table summarizes the number of births, male births, and female bir
 ![Imgur](https://imgur.com/UZuZz3g.png)
 
 
-## GRaphically representation of the table 
+## Graphically representation of the table 
 ![Imgur](https://imgur.com/KT6lcXW.png)
 
 
@@ -225,7 +225,7 @@ The following table displays the average birth weight for males and females born
 - The average birth weights are calculated in kilograms.
 - The gender "Q" and "X" may represent additional categories that need further investigation to determine their relevance in the dataset.
 
-
+![Imgur](https://imgur.com/pEtbQ9P.png)
 
   
 
@@ -253,4 +253,4 @@ The following table displays the total number of women who experienced at least 
 ## Interpretation
 This result indicates that a total of **999 women** experienced at least two pregnancies during the period from **1996 to 2000**.
 
-
+![Imgur](https://imgur.com/pPpXI9L.png)
