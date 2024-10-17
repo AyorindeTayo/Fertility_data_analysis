@@ -5,4 +5,5 @@ FROM (
     WHERE EXTRACT(YEAR FROM OutcomeDate) BETWEEN 1996 AND 2000
     GROUP BY MotherId
     HAVING COUNT(*) >= 2
+    
 ) AS subquery;
