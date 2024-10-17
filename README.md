@@ -71,7 +71,25 @@ These issues suggest potential data entry errors or the need for further data cl
 
 
 # Part B
+## Create a virtual Environment 
+The code below shows how a virtual environment named 'witsmyenv' was created
+
+```
+python -m venv witsmyenv
+```
+## Activate the virtual environent 
+```
+witsmyenv\Scripts\activate
+```
+
+## Install Requirements
+```
+pip install -r requirements.txt
+```
+
+
 ## 1.
+![Imgur](https://imgur.com/GC42SQF.png)
 # Importing Fertility Data into PostgreSQL
 
 ## Task Overview
