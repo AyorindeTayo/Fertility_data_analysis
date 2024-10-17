@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 ## 1.
 ![Imgur](https://imgur.com/GC42SQF.png)
-# Importing Fertility Data into PostgreSQL
+## Importing Fertility Data into PostgreSQL Database
 
 ## Task Overview
 The goal of this task is to import data from the `FertilityData.xlsx` file into a PostgreSQL database. This file contains two main tables: `Individuals` and `PregnanciesAndBirths`, table describing the variables and their domain values.
@@ -139,6 +139,8 @@ The goal of this task is to import data from the `FertilityData.xlsx` file into 
 - Always secure PostgreSQL access credentials, and consider using environment variables instead of hardcoding sensitive information in scripts.
 - Use tools like pgAdmin or `psql` to monitor and verify the data directly in PostgreSQL.
 
+
+![Imgur](https://imgur.com/xmyGHds.png)
 
 # 2. # Fertility Data Analysis Report
 
@@ -189,6 +191,14 @@ The following table summarizes the number of births, male births, and female bir
 - The number of male and female births is relatively balanced across the years, with a slight variation in some years.
 
 
+![Imgur](https://imgur.com/UZuZz3g.png)
+
+
+## GRaphically representation of the table 
+![Imgur](https://imgur.com/KT6lcXW.png)
+
+
+
 # 3. Average Birth Weight by Gender (1997 - 2000)
 ### Code 
 ```
@@ -202,7 +212,7 @@ WHERE EXTRACT(YEAR FROM OutcomeDate) BETWEEN 1997 AND 2000
   AND BirthWeight < 1000              -- Example threshold for bad data, adjust as necessary
 GROUP BY Gender;
 ```
-The following table displays the average birth weight for males and females born during the period from 1997 to 2000. The dataset includes records with valid birth weights, excluding any bad data.
+The following table displays the average birth weight for males and females born from 1997 to 2000. The dataset includes records with valid birth weights, excluding any bad data.
 
 | Gender | Average Birth Weight (kg) |
 |--------|---------------------------|
@@ -214,6 +224,10 @@ The following table displays the average birth weight for males and females born
 **Notes:**
 - The average birth weights are calculated in kilograms.
 - The gender "Q" and "X" may represent additional categories that need further investigation to determine their relevance in the dataset.
+
+
+
+  
 
 #  4. Total Women with Two or More Pregnancies (1996 - 2000)
 
