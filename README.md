@@ -72,6 +72,7 @@ These issues suggest potential data entry errors or the need for further data cl
 
 # Part B
 ## 1.
+![Imgur](https://imgur.com/GC42SQF.png)
 # Importing Fertility Data into PostgreSQL
 
 ## Task Overview
