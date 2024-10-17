@@ -10,6 +10,7 @@ db_params = {
     'port': '5432'
 }
 
+
 # Connect to PostgreSQL
 conn = psycopg2.connect(**db_params)
 cursor = conn.cursor()
