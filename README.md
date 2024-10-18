@@ -118,7 +118,7 @@ CREATE DATABASE wits_database;
 
 ### Step 4: Load the Data Using Python
 1. **Create a Python script** that connects to the PostgreSQL database.
-2. Load the Excel file (`FertilityData.xlsx`) using `pandas` to read the three sheets: `Individuals`, `PregnanciesAndBirths`, and `Codebook`.
+2. Load the Excel file (`FertilityData.xlsx`) using `pandas` to read the three sheets: `Individuals`, and `PregnanciesAndBirths`
 3. For each sheet:
    - Prepare an SQL `INSERT` statement to insert data into the corresponding table.
    - Use the `ON CONFLICT` clause to handle any primary key violations for the `Individuals` table, updating existing records as necessary.
