@@ -176,6 +176,11 @@ WHERE EXTRACT(YEAR FROM OutcomeDate) BETWEEN 1996 AND 2000
 GROUP BY year
 ORDER BY year;
 ```
+
+## explanation 
+Purpose of the JOIN:
+The goal is to retrieve information from both tables, specifically to link the ChildId in the pregnancies_and_births table to the corresponding IndividualId in the individuals table.
+
 The following table summarizes the number of births, male births, and female births for each year from 1996 to 2000:
 
 | **Year** | **Number of Births** | **Number of Male Births** | **Number of Female Births** |
