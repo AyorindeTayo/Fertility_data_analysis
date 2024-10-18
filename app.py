@@ -5,9 +5,9 @@ import psycopg2
 db_params = {
     'dbname': 'wits_database',        # Change to your PostgreSQL database name
     'user': 'olanipekunayo2012@gmail.com',  # Change to your PostgreSQL username
-    'password': 'Ayorinde123%',      # Change to your PostgreSQL password
+    'password': 'Ay',      # Change to your PostgreSQL password
     'host': '127.0.0.1',
-    'port': '5432'
+    'port': '52'
 }
 
 
