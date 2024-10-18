@@ -106,7 +106,7 @@ The goal of this task is to import data from the `FertilityData.xlsx` file into 
 2. **Create the necessary tables** by defining their structure:
    - Create the `Individuals` table with columns for `IndividualId`, `DoB`, `Gender`, `ObsStartDate`, and `ObsEndDate`.
    - Create the `PregnanciesAndBirths` table with columns for `MotherId`, `OutcomeDate`, `Outcome`, `ChildId`, and `Birthweight`. Ensure that `MotherId` and `ChildId` reference `IndividualId` in the `Individuals` table.
-   - Create the `Codebook` table to describe the variables and their domain values.
+
 
 ### Step 3: Prepare the Python Environment
 1. Ensure that the following Python packages are installed to handle data manipulation and database interaction:
