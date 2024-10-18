@@ -77,7 +77,7 @@ The code below shows how a virtual environment named 'witsmyenv' was created
 ```
 python -m venv witsmyenv
 ```
-## Activate the virtual environent 
+## Activate the virtual environment 
 ```
 witsmyenv\Scripts\activate
 ```
@@ -93,16 +93,18 @@ pip install -r requirements.txt
 ## Importing Fertility Data into PostgreSQL Database
 
 ## Task Overview
-The goal of this task is to import data from the `FertilityData.xlsx` file into a PostgreSQL database. This file contains two main tables: `Individuals` and `PregnanciesAndBirths`, table describing the variables and their domain values.
+This task aims to import data from the `FertilityData.xlsx` file into a PostgreSQL database. This file contains two main tables: `Individuals` and `PregnanciesAndBirths`, table describing the variables and their domain values.
 
 ## Steps Followed
 
 ### Step 1: Set Up PostgreSQL Database
-1. **Install PostgreSQL** on your machine if it is not already installed.
+1. **Install PostgreSQL** on my machine.
 2. **Create a new database** called `wits_database` to hold the data.
-
+```   
+CREATE DATABASE wits_database;
+```
 ### Step 2: Define Database Schema
-1. Connect to PostgreSQL using the command line or a GUI tool like pgAdmin.
+1. Connect to PostgreSQL using the command line or a GUI tool like pgAdmin, for the assessment i connected to the PostgreSQL admin through Vscode command line,
 2. **Create the necessary tables** by defining their structure:
    - Create the `Individuals` table with columns for `IndividualId`, `DoB`, `Gender`, `ObsStartDate`, and `ObsEndDate`.
    - Create the `PregnanciesAndBirths` table with columns for `MotherId`, `OutcomeDate`, `Outcome`, `ChildId`, and `Birthweight`. Ensure that `MotherId` and `ChildId` reference `IndividualId` in the `Individuals` table.
