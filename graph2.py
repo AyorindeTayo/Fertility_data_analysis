@@ -6,10 +6,10 @@ import numpy as np
 # PostgreSQL connection parameters
 db_params = {
     'dbname': 'wits_database',
-    'user': 'olanipekunayo2012@gmail.com',
-    'password': 'Ayorinde123%',
-    'host': '127.0.0.1',
-    'port': '5432'
+    'user': 'olanipek.com',
+    'password': 'Ayo',
+    'host': '127.0.0',
+    'port': '52'
 }
 
 # Connect to PostgreSQL
